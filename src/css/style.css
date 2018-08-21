@@ -1,0 +1,131 @@
+body {
+  font: 100% "Montserrat", sans-serif;
+  color: #2b2b2b;
+  padding-top: 65px;
+  margin: 0; }
+
+.navbar-light {
+  background-color: #ffffff; }
+
+.navbar-brand {
+  background: url(../assets/logoForma.png) 0 50% no-repeat;
+  height: 40px;
+  line-height: 0;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-left: 15px;
+  position: relative;
+  text-indent: -9999px;
+  width: 150px;
+  background-size: 85px; }
+
+.navbar-toggler {
+  padding: 0.25rem 0.5rem;
+  font-size: 1rem; }
+
+.navbar-toggler-icon {
+  width: 1em;
+  height: 1em; }
+
+#lines {
+  margin: 20px 0; }
+
+#first-line {
+  width: 45%;
+  margin-bottom: 5px; }
+
+#second-line {
+  width: 70%;
+  margin-top: 0;
+  margin-bottom: 0; }
+
+.super-light {
+  background-color: #fcfcfc;
+  height: 3px;
+  margin-left: 0; }
+
+.wrapper {
+  width: 100%; }
+
+.bg-image {
+  height: 360px;
+  width: 100%; }
+
+.bg-center-bottom {
+  background-image: url(../assets/taxi.jpg);
+  background-position: center bottom;
+  background-size: cover; }
+
+h1 {
+  font-size: 1.5em; }
+
+.inline-logo {
+  width: 50px; }
+
+.f {
+  height: 155px;
+  background-color: #ffb700;
+  transform: translateY(-286px);
+  padding: 25px; }
+
+.middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff; }
+
+.btn {
+  background-color: #ffffff;
+  color: #2b2b2b;
+  margin-top: 10px; }
+
+.yellow-background {
+  background-color: #ffb700;
+  transform: translateY(-171px);
+  height: 410px; }
+
+#cellphone {
+  padding: 30px 15px; }
+
+.container {
+  border: 1px solid #ffffff;
+  height: 330px;
+  margin: 0 auto 30px auto; }
+
+#splash-cellphone {
+  width: 65%;
+  display: block;
+  margin: 0 auto; }
+
+.inside {
+  text-align: center; }
+
+#text-cellphone {
+  color: #ffffff;
+  font-size: 0.6em; }
+
+.car {
+  height: 290px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/conduce.jpg);
+  background-position: -74px;
+  background-size: cover; }
+
+.e {
+  height: 155px;
+  transform: translateY(-286px);
+  padding: 25px; }
+
+.btn-yellow {
+  background-color: #ffb700;
+  color: #ffffff;
+  margin-top: 0; }
+
+.description {
+  font-size: 0.7em;
+  margin-bottom: 0.5rem; }
+
+.mt {
+  margin-top: 30px; }
+
+.driver {
+  transform: translateY(-171px); }
