@@ -15,7 +15,7 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-md navbar-light fixed-top">
+  <nav class="navbar navbar-expand-sm navbar-light fixed-top">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
       aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -36,17 +36,14 @@
     </div>
   </nav>
 
+  <!--  Begin mobile version content -->
+
   <header class="hidden-md-up">
     <div id="lines">
       <hr class="super-light" id="first-line">
       <hr class="super-light" id="second-line">
     </div>
   </header>
-
-  <div class="test-dsk hidden-md-down">
-    <h1>Hola</h1>
-  </div>
-
 
   <section class="wrapper fix-height hidden-md-up">
     <figure>
@@ -79,7 +76,7 @@
 
   <section class="wrapper driver hidden-md-up">
     <figure>
-      <div class="car"></div>
+      <div class="car car-m"></div>
     </figure>
     <div class="box e middle mt">
       <div>
@@ -90,7 +87,7 @@
     </div>
   </section>
 
-  <section class="yellow-background tarifas middle hidden-md-up">
+  <section class="yellow-background tarifas tarifas-md middle hidden-md-up">
     <form class="col-12">
       <p class="title">Tarifas</p>
       <p class="description">Consulta las tarifas LabCar aquí</p>
@@ -163,6 +160,68 @@
       <a href="" class="footer-link">&#64; 2017 LabCar technologies Inc.</a>
     </div>
   </footer>
+
+  <!-- End mobile version content -->
+
+  <!-- Begin desktop version content -->
+  <div class="hidden-md-down">
+    <h1>Hola</h1>
+  </div>
+
+  <footer class="container-fluid hidden-md-down padding-footer">
+    <div class="row">
+      <img class="mb-3" src="assets/logoBlanco.png" alt="logo_labcar_blanco">
+      <hr class="hr-footer">
+    </div>
+    <div class="row tb inner-padding">
+      <div class="col-3 pl-0">
+        <div class="icons to-bottom tleft">
+          <i class="fab fa-facebook-f mr-2"></i>
+          <i class="fab fa-twitter mr-2"></i>
+          <i class="fab fa-linkedin-in mr-2"></i>
+          <i class="fab fa-apple mr-2 bg-font"></i>
+          <i class="fas fa-play sm-font"></i>
+        </div>
+      </div>
+      <div class="col-3 mt-2 mb-4 pl-0">
+        <ul>
+          <li>Viaja</li>
+          <li>Conduce</li>
+          <li>Ciudades</li>
+          <li>Ciudades</li>
+          <li>Entregas</li>
+          <li>Cómo funciona?</li>
+          <li>Países</li>
+          <li>Seguridad</li>
+        </ul>
+      </div>
+      <div class="col-3 mt-2 mb-4">
+        <ul>
+          <li>Oportunidades</li>
+          <li>Nuestra historia</li>
+          <li>API de LabCar</li>
+          <li>Eventos</li>
+          <li>Desarrolladores</li>
+          <li>Servicios</li>
+          <li>Laboratoria</li>
+          <li>Coders</li>
+        </ul>
+      </div>
+      <div class="col-3 mb-2 to-bottom tright">
+        <div class="logo-footer-a mb-3">
+          <img src="assets/enBadgeWebGeneric.png" alt="logo_play_store">
+        </div>
+        <div class="logo-footer-b">
+          <img src="assets/appstore.png" alt="logo_app_store">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <hr class="hr-footer">
+      <a href="" class="footer-link">&#64; 2017 LabCar technologies Inc.</a>
+    </div>
+  </footer>
+  <!-- End desktop version content -->
 
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.js"></script>
