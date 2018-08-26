@@ -27,6 +27,12 @@ body {
   width: 1em;
   height: 1em; }
 
+.yellow-background {
+  background-color: #ffb700; }
+
+.inside {
+  text-align: center; }
+
 footer {
   color: #ffffff;
   background-color: #2b2b2b; }
@@ -120,8 +126,6 @@ footer {
     font-size: 0.7rem;
     font-weight: 900;
     width: 45%; }
-  .yellow-background {
-    background-color: #ffb700; }
   #cellphone {
     padding: 30px 15px;
     height: 410px; }
@@ -133,8 +137,6 @@ footer {
     width: 65%;
     display: block;
     margin: 0 auto; }
-  .inside {
-    text-align: center; }
   .text {
     color: #ffffff;
     font-size: 0.6em; }
@@ -217,6 +219,49 @@ footer {
     display: none; }
   .test-dsk {
     height: 500px; }
+  .tarifas-lg {
+    padding: 5%;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: right; }
+  .vertical-center {
+    display: flex;
+    align-items: center; }
+  .col-pad {
+    padding-left: 0; }
+  .form-control {
+    border-color: #ffffff;
+    background-color: #ffb700; }
+  .title {
+    font-size: 1.8rem;
+    font-weight: bold; }
+  .description {
+    font-size: 1.13rem; }
+  .input-group {
+    padding-left: 0; }
+  .input-group > .form-control:not(:first-child) {
+    border-radius: 0.5rem;
+    font-size: 0.85rem;
+    height: 40px; }
+  .form-control::placeholder {
+    color: #ffffff; }
+  #map-desktop {
+    border: 1px solid #ffffff;
+    padding: 2%; }
+  .map-section {
+    padding-left: 45px; }
+  .center-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem; }
+  .center-button button {
+    width: 53%;
+    height: 40px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: black; }
   .tb {
     position: relative; }
   .to-bottom {

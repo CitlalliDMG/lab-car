@@ -164,9 +164,41 @@
   <!-- End mobile version content -->
 
   <!-- Begin desktop version content -->
-  <div class="hidden-md-down">
-    <h1>Hola</h1>
-  </div>
+
+  <section class="yellow-background tarifas-lg hidden-md-down">
+    <div class="row col-12 col-pad vertical-center">
+      <form class="col-6 col-pad">
+        <p class="title">Tarifas</p>
+        <p class="description">Consulta las tarifas LabCar aquí</p>
+        <div class="input-group mt-4 pt-2 mb-3">
+          <div class="input-group-addon mr-3">
+            <span class="mr-3">
+              <img class="width-45" src="assets/shape.png" alt="beggin-route">
+            </span>
+          </div>
+          <input type="text" class="form-control col-7" id="begin-route-desktop" placeholder="Ingrese su punto de partida">
+        </div>
+        <div class="input-group mt-4 pt-2 mb-3">
+          <div class="input-group-addon mr-3">
+            <span class="mr-3 width-45">
+              <img class="width-45" src="assets/shape2.png" alt="end-route">
+            </span>
+          </div>
+          <input type="text" class="form-control col-7" id="end-route-desktop" placeholder="Ingrese su destino">
+        </div>
+        <div class="col-8 center-button">
+          <button type="button" class="btn button">¡TRAZAR RUTA!</button>
+        </div>
+      </form>
+      <div class="col-6 map-section">
+        <div class="col-12">
+          <div class="inside">
+            <img src="assets/mapa_desktop.png" alt="mapa-labcar" id="map-desktop">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <footer class="container-fluid hidden-md-down padding-footer">
     <div class="row">
