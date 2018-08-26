@@ -33,6 +33,14 @@ body {
 .inside {
   text-align: center; }
 
+.wrapper {
+  width: 100%; }
+
+.btn-yellow {
+  background-color: #ffb700;
+  color: #ffffff;
+  margin-top: 0; }
+
 footer {
   color: #ffffff;
   background-color: #2b2b2b; }
@@ -93,8 +101,8 @@ footer {
     background-color: #fcfcfc;
     height: 3px;
     margin-left: 0; }
-  .wrapper {
-    width: 100%; }
+  .driver {
+    height: 290px; }
   .fix-height {
     height: 360px; }
   .bg-image {
@@ -151,10 +159,6 @@ footer {
     height: 155px;
     transform: translateY(-286px);
     padding: 25px; }
-  .btn-yellow {
-    background-color: #ffb700;
-    color: #ffffff;
-    margin-top: 0; }
   .description {
     font-size: 0.7rem;
     margin-bottom: 0.5rem; }
@@ -219,6 +223,24 @@ footer {
     display: none; }
   .test-dsk {
     height: 500px; }
+  .driver {
+    height: 500px; }
+  .car-m {
+    height: 500px;
+    width: 100vw;
+    background-image: url(../assets/conduce.jpg);
+    background-position: right -250px;
+    background-size: auto 960px;
+    background-repeat: no-repeat; }
+  .e {
+    height: 500px;
+    transform: translateY(-515px);
+    padding: 25px;
+    color: #ffffff;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    display: flex;
+    align-items: center;
+    justify-content: right; }
   .tarifas-lg {
     padding: 5%;
     color: #ffffff;
