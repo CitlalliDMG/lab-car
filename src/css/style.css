@@ -248,7 +248,8 @@ footer {
     color: #ffffff; }
   #map-desktop {
     border: 1px solid #ffffff;
-    padding: 2%; }
+    padding: 2%;
+    width: 100%; }
   .map-section {
     padding-left: 45px; }
   .center-button {
@@ -257,7 +258,7 @@ footer {
     justify-content: center;
     margin-top: 2rem; }
   .center-button button {
-    width: 53%;
+    width: 180px;
     height: 40px;
     font-size: 0.85rem;
     font-weight: bold;
