@@ -221,6 +221,16 @@ footer {
 @media (min-width: 576px) {
   .hidden-md-up {
     display: none; }
+  .navbar-brand {
+    margin-bottom: 33px;
+    margin-top: 33px;
+    margin-left: 70px;
+    background-size: 130px; }
+  #navbarNavDropdown {
+    font-size: 1.1rem;
+    margin-right: 96px; }
+  .mar-right {
+    margin-right: 2.4rem; }
   .wrapper-m {
     width: 100%;
     height: 720px; }
