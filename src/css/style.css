@@ -1,8 +1,11 @@
 body {
-  font: 100% "Montserrat", sans-serif;
+  font: 100% "Raleway", sans-serif;
   color: #2b2b2b;
-  padding-top: 65px;
+  padding-top: 86px;
   margin: 0; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #2b2b2b; }
 
 .navbar-light {
   background-color: #ffffff; }
@@ -27,171 +30,14 @@ body {
   width: 1em;
   height: 1em; }
 
-#lines {
-  margin: 21px 0; }
-
-#first-line {
-  width: 45%;
-  margin-bottom: 5px; }
-
-#second-line {
-  width: 70%;
-  margin-top: 0;
-  margin-bottom: 0; }
-
-.super-light {
-  background-color: #fcfcfc;
-  height: 3px;
-  margin-left: 0; }
-
-.wrapper {
-  width: 100%; }
-
-.fix_height {
-  height: 360px; }
-
-.bg-image {
-  height: 360px;
-  width: 100%; }
-
-.bg-center-bottom {
-  background-image: url(../assets/taxi.jpg);
-  background-position: center bottom;
-  background-size: cover; }
-
-h1 {
-  font-size: 1.5em; }
-
-.inline-logo {
-  width: 50px; }
-
-.f {
-  height: 155px;
-  background-color: #ffb700;
-  transform: translateY(-286px);
-  padding: 25px; }
-
-.middle {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #ffffff; }
-
-.btn {
-  background-color: #ffffff;
-  color: #2b2b2b;
-  margin-top: 10px;
-  font-family: "Open Sans", sans-serif;
-  font-size: 0.7rem;
-  font-weight: 900;
-  width: 45%; }
-
 .yellow-background {
   background-color: #ffb700; }
 
-#cellphone {
-  padding: 30px 15px;
-  height: 410px; }
-
-.container {
-  border: 1px solid #ffffff;
-  height: 330px;
-  margin: 0 auto 30px auto; }
-
-#splash-cellphone {
-  width: 65%;
-  display: block;
-  margin: 0 auto; }
-
 .inside {
   text-align: center; }
 
-.text {
-  color: #ffffff;
-  font-size: 0.6em; }
-
-.car {
-  height: 290px;
-  width: 100vw;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/conduce.jpg);
-  background-position: right bottom;
-  background-size: auto 290px;
-  background-repeat: no-repeat; }
-
-.e {
-  height: 155px;
-  transform: translateY(-286px);
-  padding: 25px; }
-
-.btn-yellow {
-  background-color: #ffb700;
-  color: #ffffff;
-  margin-top: 0; }
-
-.description {
-  font-size: 0.7rem;
-  margin-bottom: 0.5rem; }
-
-.fix-width {
-  width: 165px;
-  padding-left: 3px;
-  padding-right: 3px; }
-
-.mt {
-  margin-top: 30px; }
-
-.driver {
-  height: 290px; }
-
-.tarifas {
-  padding-top: 60px;
-  padding-bottom: 90px;
-  color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: right; }
-
-.form-control {
-  font-size: 0.75rem;
-  border-color: #ffffff;
-  background-color: #ffb700; }
-
-.width-45 {
-  width: 45%; }
-
-.input-group {
-  padding-left: 0; }
-
-.input-group > .form-control:not(:first-child) {
-  border-radius: 0.5rem;
-  font-size: 0.7rem;
-  height: 30px; }
-
-.form-control::placeholder {
-  color: #ffffff; }
-
-.title {
-  font-weight: 500; }
-
-.button {
-  border-radius: 0.1rem; }
-
-#map-section {
-  padding: 15px 15px;
-  height: 180px; }
-
-#map {
-  width: 100%;
-  display: block;
-  margin: 0 auto;
-  border: 1px solid #ffffff;
-  padding: 2%; }
-
-.map {
-  padding: 0; }
-
-.inside {
-  text-align: center; }
+.wrapper {
+  width: 100%; }
 
 footer {
   color: #ffffff;
@@ -238,3 +84,342 @@ footer {
 .footer-link {
   color: #ffffff;
   font-size: 0.55rem; }
+
+@media (max-width: 575px) {
+  #lines {
+    margin: 21px 0; }
+  #first-line {
+    width: 45%;
+    margin-bottom: 5px; }
+  #second-line {
+    width: 70%;
+    margin-top: 0;
+    margin-bottom: 0; }
+  .super-light {
+    background-color: #fcfcfc;
+    height: 3px;
+    margin-left: 0; }
+  .fix-height {
+    height: 360px; }
+  .bg-image {
+    height: 360px;
+    width: 100%; }
+  .bg-center-bottom {
+    background-image: url(../assets/taxi.jpg);
+    background-position: center bottom;
+    background-size: cover; }
+  h1 {
+    font-size: 1.5em; }
+  .inline-logo {
+    width: 50px; }
+  .f {
+    height: 155px;
+    background-color: #ffb700;
+    transform: translateY(-286px);
+    padding: 25px; }
+  .middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff; }
+  .btn {
+    background-color: #ffffff;
+    color: #2b2b2b;
+    margin-top: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.7rem;
+    font-weight: 900;
+    width: 45%; }
+  .btn-yellow {
+    background-color: #ffb700;
+    color: #ffffff;
+    margin-top: 0; }
+  #cellphone {
+    padding: 30px 15px;
+    height: 410px; }
+  .container {
+    border: 1px solid #ffffff;
+    height: 330px;
+    margin: 0 auto 30px auto; }
+  #splash-cellphone {
+    width: 65%;
+    display: block;
+    margin: 0 auto; }
+  .text {
+    color: #ffffff;
+    font-size: 0.6em; }
+  .car {
+    height: 290px;
+    width: 100vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/conduce.jpg);
+    background-position: right bottom;
+    background-size: auto 290px;
+    background-repeat: no-repeat; }
+  .e {
+    height: 155px;
+    transform: translateY(-286px);
+    padding: 25px; }
+  .description {
+    font-size: 0.7rem;
+    margin-bottom: 0.5rem; }
+  .fix-width {
+    width: 165px;
+    padding-left: 3px;
+    padding-right: 3px; }
+  .mt {
+    margin-top: 30px; }
+  .driver {
+    height: 290px; }
+  .tarifas {
+    padding-top: 60px;
+    padding-bottom: 90px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: right; }
+  .form-control {
+    font-size: 0.75rem;
+    border-color: #ffffff;
+    background-color: #ffb700; }
+  .width-45 {
+    width: 45%; }
+  .input-group {
+    padding-left: 0; }
+  .input-group > .form-control:not(:first-child) {
+    border-radius: 0.5rem;
+    font-size: 0.7rem;
+    height: 30px; }
+  .form-control::placeholder {
+    color: #ffffff; }
+  .title {
+    font-weight: 500; }
+  .button {
+    border-radius: 0.1rem; }
+  #map-section {
+    padding: 15px 15px;
+    height: 180px; }
+  #map {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ffffff;
+    padding: 2%; }
+  .map {
+    padding: 0; }
+  .inside {
+    text-align: center; }
+  .hidden-md-down {
+    display: none; } }
+
+@media (min-width: 433px) and (max-width: 576px) {
+  .car-m {
+    background-size: auto 390px; }
+  .tarifas-md {
+    height: 650px;
+    padding-bottom: 150px; } }
+
+@media (min-width: 576px) {
+  .hidden-md-up {
+    display: none; }
+  .navbar-brand {
+    margin-bottom: 33px;
+    margin-top: 33px;
+    margin-left: 70px;
+    background-size: 130px; }
+  #navbarNavDropdown {
+    font-size: 1.1rem;
+    margin-right: 96px; }
+  .mar-right {
+    margin-right: 2.4rem; }
+  .wrapper-m {
+    width: 100%;
+    height: 720px; }
+  .taxi-m {
+    height: 720px;
+    width: 100vw;
+    background-image: url(../assets/taxi.jpg);
+    background-position: right -1235px;
+    background-size: auto 2060px;
+    background-repeat: no-repeat; }
+  .f {
+    height: 400px;
+    background-color: #ffb700;
+    margin-left: 59.5%;
+    flex: 0 0 48.5%;
+    max-width: 48.5%;
+    transform: translateY(-570px);
+    padding: 3%; }
+  .title-taxi {
+    color: #ffffff;
+    font-size: 2.2rem;
+    font-weight: bold;
+    line-height: 1.7rem;
+    letter-spacing: 0.05rem; }
+  .description-taxi {
+    color: #ffffff;
+    font-size: 1.6rem; }
+  .logo-taxi {
+    width: 20%;
+    margin-left: 2%; }
+  .btn-taxi {
+    width: 30%;
+    font-size: 1.1rem;
+    font-weight: bolder; }
+  .btn-driver-taxi {
+    width: 58%;
+    font-size: 1.1rem;
+    font-weight: bolder; }
+  .login-or {
+    position: relative;
+    color: #ffffff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 95%;
+    padding-left: 5%; }
+  .span-or {
+    display: block;
+    position: absolute;
+    left: 52.5%;
+    top: -1rem;
+    margin-left: -75px;
+    background-color: #ffb700;
+    width: 150px;
+    text-align: center;
+    font-size: 0.86rem;
+    line-height: 2rem; }
+  .hr-or {
+    background-color: #ffffff;
+    height: 0.03rem;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important; }
+  #cellphone-dsk {
+    height: 540px;
+    display: flex;
+    align-items: center;
+    justify-content: right; }
+  .line-white {
+    border: 1px solid #ffffff;
+    padding: 3%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: right; }
+  #splash-cellphone-dsk {
+    height: 23rem; }
+  .text-dsk {
+    color: #ffffff; }
+  .text-dsk-description {
+    font-size: 1.25rem;
+    line-height: 2rem;
+    width: 75%; }
+  .driver {
+    height: 500px; }
+  .car-m {
+    height: 500px;
+    width: 100vw;
+    background-image: url(../assets/conduce.jpg);
+    background-position: right -250px;
+    background-size: auto 961px;
+    background-repeat: no-repeat; }
+  .e {
+    height: 500px;
+    transform: translateY(-516px);
+    padding: 3%;
+    color: #ffffff;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    display: flex;
+    align-items: center;
+    justify-content: right; }
+  .btn-yellow {
+    background-color: #ffb700;
+    color: #ffffff;
+    margin-top: 0; }
+  .esp-width {
+    width: 98%; }
+  .tarifas-lg {
+    padding: 5% 7%;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: right; }
+  .vertical-center {
+    display: flex;
+    align-items: center; }
+  .col-pad {
+    padding-left: 0; }
+  .form-control {
+    border-color: #ffffff;
+    background-color: #ffb700; }
+  .title {
+    font-size: 1.8rem;
+    font-weight: bold; }
+  .description {
+    font-size: 1.13rem; }
+  .input-group {
+    padding-left: 0; }
+  .input-group > .form-control:not(:first-child) {
+    border-radius: 0.5rem;
+    font-size: 0.85rem;
+    height: 40px; }
+  .form-control::placeholder {
+    color: #ffffff; }
+  #map-desktop {
+    border: 1px solid #ffffff;
+    padding: 2%;
+    width: 100%; }
+  .map-section {
+    padding-left: 45px; }
+  .center-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem; }
+  .center-button button {
+    width: 180px;
+    height: 40px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: black; }
+  .tb {
+    position: relative; }
+  .to-bottom {
+    position: absolute; }
+  .tright {
+    bottom: 1em;
+    right: 0px; }
+  .tleft {
+    left: 0px;
+    bottom: 1em; }
+  .footer-link {
+    font-size: 0.85rem;
+    padding-top: 2%; }
+  .padding-footer {
+    padding: 5% 7%; }
+  .padding-footer img {
+    height: 30px; }
+  .padding-footer ul {
+    font-size: 0.85rem; }
+  .icons i {
+    font-size: 0.85rem; }
+  .bg-font {
+    font-size: 1.05rem !important; }
+  .sm-font {
+    font-size: 0.75rem !important; }
+  .inner-padding {
+    padding: 2% 0 0 0; }
+  .logo-footer-a img {
+    height: 3em; }
+  .logo-footer-b img {
+    height: 3.1em; } }
+
+@media (min-width: 1367px) {
+  .taxi-m {
+    height: 720px;
+    width: 100vw;
+    background-image: url(../assets/taxi.jpg);
+    background-position: right -1296px;
+    background-size: auto 2160px;
+    background-repeat: no-repeat; } }
